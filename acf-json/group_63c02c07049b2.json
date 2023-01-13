@@ -1,0 +1,195 @@
+{
+    "key": "group_63c02c07049b2",
+    "title": "Sponsors by category",
+    "fields": [
+        {
+            "key": "field_63c02c07e7a9a",
+            "label": "Data group",
+            "name": "data_group",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "acfe_seamless_style": 1,
+            "sub_fields": [
+                {
+                    "key": "field_63c036401da6c",
+                    "label": "Texts",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_63c02c1de7a9b",
+                    "label": "Top content",
+                    "name": "top_content",
+                    "aria-label": "",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0
+                },
+                {
+                    "key": "field_63c0308fe7a9c",
+                    "label": "Bottom content",
+                    "name": "bottom_content",
+                    "aria-label": "",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 1,
+                    "delay": 0
+                },
+                {
+                    "key": "field_63c036521da6d",
+                    "label": "Settings",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_63c036661da6e",
+                    "label": "Post types",
+                    "name": "post_types",
+                    "aria-label": "",
+                    "type": "acfe_post_types",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "sponsors"
+                    ],
+                    "field_type": "checkbox",
+                    "default_value": [],
+                    "return_format": "name",
+                    "layout": "vertical",
+                    "toggle": 0,
+                    "allow_custom": 0,
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "choices": [],
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "search_placeholder": "",
+                    "other_choice": 0
+                },
+                {
+                    "key": "field_63c036891da6f",
+                    "label": "Post categories",
+                    "name": "post_categories",
+                    "aria-label": "",
+                    "type": "acfe_taxonomy_terms",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "taxonomy": "",
+                    "allow_terms": "",
+                    "allow_level": "",
+                    "field_type": "checkbox",
+                    "default_value": [],
+                    "return_format": "id",
+                    "layout": "vertical",
+                    "toggle": 0,
+                    "save_terms": 0,
+                    "load_terms": 0,
+                    "choices": [],
+                    "ui": 0,
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "search_placeholder": "",
+                    "allow_custom": 0,
+                    "other_choice": 0
+                }
+            ],
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/sponsors-by-category"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1673612880
+}

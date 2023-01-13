@@ -1,0 +1,389 @@
+/*
+Theme Name: National manufacturing conference
+Text Domain: shocklogic
+Version: 1
+Description: Template modified for Kelsey Media client
+Tags:
+Author: The Shocklogic Team
+Author URI: https://shocklogic.com/
+*/
+
+/*
+ * Fonts
+ */
+@font-face {
+    font-family: lato-black;
+    src: url("fonts/Lato/Lato-Black.ttf");
+}
+@font-face {
+    font-family: lato-blackItalic;
+    src: url("fonts/Lato/Lato-BlackItalic.ttf");
+}
+@font-face {
+    font-family: lato-bold;
+    src: url("fonts/Lato/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: lato-boldItalic;
+    src: url("fonts/Lato/Lato-BoldItalic.ttf");
+}
+@font-face {
+    font-family: lato-italic;
+    src: url("fonts/Lato/Lato-Italic.ttf");
+}
+@font-face {
+    font-family: lato-light;
+    src: url("fonts/Lato/Lato-Light.ttf");
+}
+@font-face {
+    font-family: lato-lightItalic;
+    src: url("fonts/Lato/Lato-LightItalic.ttf");
+}
+@font-face {
+    font-family: lato-regular;
+    src: url("fonts/Lato/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: lato-thin;
+    src: url("fonts/Lato/Lato-Thin.ttf");
+}
+@font-face {
+    font-family: lato-thin;
+    src: url("fonts/Lato/Lato-ThinItalic.ttf");
+}
+
+
+html, body{
+    font-family: lato-regular;
+    color: #434343;
+    font-size: 20px;
+}
+.title {
+    font-family: lato-bolditalic;
+}
+.banner_title {
+    font-family: lato-bold;
+}
+.banner_subtitle {
+    font-family: Lato-regular;
+}
+.btn {
+    font-family: lato-bold;
+}
+
+footer .h1, footer .h2, footer .h3, footer .h4, footer .h5, footer .h6, footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+header ul li::before {
+    content: none;
+}
+ul li::before {
+    content: "•";
+    font-size: 20px;
+    padding-right: 12px;
+}
+
+/*
+ * Social Icons
+ */
+#socialRow span#animate {
+    z-index: 1;
+    padding: 5px 10px;
+
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+#socialRow span#animate:hover, #socialRow span#animate:active, #socialRow span#animate:focus {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+/*
+ * Generals
+ */
+p {
+    word-break: break-word;
+}
+
+.min-height-400 {
+    min-height: 400px;
+}
+.min-height-500 {
+    min-height: 500px;
+}
+.min-height-550 {
+    min-height: 550px;
+}
+.st-p {
+    padding: 5vh 5vw 10vh 5vw;
+}
+
+hr {
+    height: 4px;
+    width: 80px;
+    border: none;
+    margin: 0.5rem 0 1rem 0;
+}
+
+/*
+ * Header
+ */
+header {
+    box-shadow: 0px 5px 6px #00000029;
+}
+.dropdown-menu {
+    border-radius: 5px;
+    min-width: 15rem;
+}
+.dropdown-item {
+    padding: 0.5rem 0;
+}
+
+/*
+ * Speakers
+ */
+#speaker #name h5{
+    margin-bottom: 0;
+}
+/*
+ * Speakers Modal
+ */
+.modal.show .modal-dialog {
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px #00000029;
+    border: 1px solid #707070;
+}
+
+/*
+ * Slick Slider changes
+ */
+.slick-initialized .slick-slide {
+    cursor: pointer;
+}
+.slick-prev, .slick-next {
+    width: auto !important;
+    height: auto !important;
+    top: 40% !important;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 3rem !important;
+}
+
+/*
+ * Blog , Blog index
+ */
+#blogRow #blogTitle, #blogRow_index #blogTitle {
+    height: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+}
+#blogRow #blogTitle a, #blogRow_index #blogTitle a {
+    color: white;
+}
+#blogRow #BlogCard {
+    box-shadow: 5px 5px 6px #00000029;
+
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+#blogRow #BlogCard:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s;
+}
+#blogRow_index img, #blogRow img {
+    height: 25vh;
+    object-fit: cover;
+    object-position: center;
+
+    transform: scale(1);
+    opacity: 1;
+    transition: transform 1s, opacity 1s;
+}
+#blogRow_index img:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+    transition: transform 1s, opacity 1s;
+}
+
+#blogRow_index img:hover + #blogTitle  {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+/*
+ * Testimonials
+ */
+#testimonialRow {
+    font-family: lato-italic;
+}
+#testimonialRow .quotes {
+    position: absolute;
+}
+#testimonialRow .quotes img {
+    width: 130px;
+    height: 130px;
+}
+.testimonialItem {
+    background-color: #F8F8F9;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px #00000029;
+    padding: 2rem;
+    height: auto;
+    display: flex;
+}
+
+.navbar-brand {
+    max-width: 45%;
+    max-height: 80px;
+    padding: 20px 0;
+}
+.navbar-brand img {
+    object-fit: contain;
+    height: 50px;
+}
+
+.readMore {
+    font-size: 1.2rem;
+    font-family: lato-bold;
+}
+
+/* Extra Small devices */
+@media (max-width: 575px) {
+    .nav-item {
+        width: 100%;
+    }
+    .nav-link {
+        font-size: 1.4rem;
+    }
+    .dropdown-item {
+        font-size: 1.2rem;
+    }
+
+    .banner_title {
+        font-size: 5vw;
+    }
+
+    #socialRow span {
+        font-size: 20px;
+    }
+    .banner_subtitle {
+        font-size: 4vw;
+    }
+
+    .testimonialItem {
+        height: auto;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .nav-item {
+        width: 100%;
+    }
+    .nav-link {
+        font-size: 1.4rem;
+    }
+    .dropdown-item {
+        font-size: 1.2rem;
+    }
+    #socialRow span {
+        font-size: 20px;
+    }
+
+    .banner_title {
+        font-size: 5vw;
+    }
+    .banner_subtitle {
+        font-size: 4vw;
+    }
+
+    .testimonialItem {
+        height: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .testimonialItem {
+        height: 13rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .col-lg-20 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .banner_title {
+        font-size: 2.9vw;
+    }
+    .banner_subtitle {
+        font-size: 1.8vw;
+    }
+    .banner_title p, .banner_subtitle p {
+        margin-bottom: 0;
+    }
+    .banner-p {
+        padding: 8vh 0;
+    }
+	
+	/* Blog Index*/
+	#blogRow_index #blogTitle {
+		color: white;
+		position: absolute;
+		bottom: 0.5rem;
+		right: 1rem;
+		z-index: 1;
+		opacity: 0;
+		transition: opacity 1s;
+		width: 100%;
+		background-color: transparent;
+		
+		height: auto;
+	}
+	#blogRow_index #blogTitle h4 {
+		margin: 0;
+	}
+
+	/* Testimonial Index */
+    .testimonialItem {
+        height: 20rem;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .nav-item {
+        width: auto;
+    }
+    .nav-link, .dropdown-item, .btn {
+        font-size: 1vw;
+    }
+
+    #socialRow span {
+        font-size: 1.3vw;
+    }
+
+    .testimonialItem {
+        height: 18rem;
+    }
+    .modal-dialog {
+        width: 50%;
+        max-width: 800px;
+    }
+}

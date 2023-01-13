@@ -1,0 +1,34 @@
+.sponsorsCategory_wrapper_sponsors_sponsor_image {
+    margin-bottom: 1rem;
+}
+
+.sponsorsCategory_wrapper_sponsors_sponsor_image img {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (min-width: 576px) {
+    .sponsorsCategory_wrapper_sponsors_sponsor_image img {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+    .sponsorsCategory_wrapper_sponsors_sponsor_image img {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .sponsorsCategory_wrapper_sponsors_sponsor_image img {
+        width: 30%;
+    }
+}

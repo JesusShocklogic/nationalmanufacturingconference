@@ -1,0 +1,84 @@
+/*
+ * Gutenberg not established y default
+ */
+
+/*
+ * Alignments
+ */
+.aligncenter, .has-text-align-center {
+    text-align: center;
+}
+.alignleft, .has-text-align-left {
+    text-align: left;
+}
+.alignright, .has-text-align-right {
+    text-align: right;
+}
+
+/*
+ * Tables
+ */
+.wp-block-table .has-fixed-layout{
+    table-layout:fixed;
+    width:100%;
+}.wp-block-table.aligncenter,.wp-block-table.alignleft,.wp-block-table.alignright{
+     display:table;width:auto;
+ }.wp-block-table.has-subtle-light-gray-background-color{
+      background-color:#f3f4f5;
+  }
+.wp-block-table.has-subtle-pale-green-background-color{
+    background-color:#e9fbe5;
+}
+.wp-block-table.has-subtle-pale-blue-background-color{
+    background-color:#e7f5fe;
+}
+.wp-block-table.has-subtle-pale-pink-background-color{
+    background-color:#fcf0ef;
+}
+.wp-block-table.is-style-stripes{
+    border-spacing:0;
+    border-collapse:inherit;
+    background-color:transparent;
+    border-bottom:1px solid #f3f4f5;
+}
+.wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tr:nth-child(odd),.wp-block-table.is-style-stripes tr:nth-child(odd){
+    background-color:#f3f4f5;
+}
+.wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tr:nth-child(odd){
+    background-color:#e9fbe5;
+}
+.wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tr:nth-child(odd){
+    background-color:#e7f5fe;
+}
+.wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tr:nth-child(odd){
+    background-color:#fcf0ef;
+}
+.wp-block-table.is-style-stripes td{
+    border-color:transparent;
+}
+
+/*
+ * Colors
+ */
+.has-pale-pink-background-color{background-color:#f78da7}
+.has-vivid-red-background-color{background-color:#cf2e2e}
+.has-luminous-vivid-orange-background-color{background-color:#ff6900}
+.has-luminous-vivid-amber-background-color{background-color:#fcb900}
+.has-light-green-cyan-background-color{background-color:#7bdcb5}
+.has-vivid-green-cyan-background-color{background-color:#00d084}
+.has-pale-cyan-blue-background-color{background-color:#8ed1fc}
+.has-vivid-cyan-blue-background-color{background-color:#0693e3}
+.has-very-light-gray-background-color{background-color:#eee}
+.has-cyan-bluish-gray-background-color{background-color:#abb8c3}
+.has-very-dark-gray-background-color{background-color:#313131}
+.has-pale-pink-color{color:#f78da7}
+.has-vivid-red-color{color:#cf2e2e}
+.has-luminous-vivid-orange-color{color:#ff6900}
+.has-luminous-vivid-amber-color{color:#fcb900}
+.has-light-green-cyan-color{color:#7bdcb5}
+.has-vivid-green-cyan-color{color:#00d084}
+.has-pale-cyan-blue-color{color:#8ed1fc}
+.has-vivid-cyan-blue-color{color:#0693e3}
+.has-very-light-gray-color{color:#eee}
+.has-cyan-bluish-gray-color{color:#abb8c3}
+.has-very-dark-gray-color{color:#313131}
