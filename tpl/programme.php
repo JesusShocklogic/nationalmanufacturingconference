@@ -103,7 +103,7 @@ CONTENT;
                     * Chair Speakers Builder
                     */
                     if (!empty($speakers)) {
-                        $speakersContent = "<div><strong>Chair(s): </strong>";
+                        $speakersContent = "<div><strong>Speaker(s): </strong>";
                         foreach ($speakers as $key4 => $speaker) {
                             $id = $speaker->speaker_id;
                             $name = $speaker->speaker_name;
