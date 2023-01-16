@@ -241,7 +241,7 @@ IMG;
                                     $room
                                     $speakersContent
                                     $sessionType
-                                    <div><strong>Session time: </strong>$sessionTime</div>
+                                    <div class="d-none"><strong>Session time: </strong>$sessionTime</div>
 									<div>$sessionDescription</div>
                                 </div>
                                 <div>$tableContent</div>
