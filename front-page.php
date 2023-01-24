@@ -95,6 +95,7 @@ if (have_posts()) {
 
 
         <!-- Section 6 -->
+        <?php the_content() ?>
         <?php
         if (get_field('section_6_enable')) {
 
@@ -102,7 +103,7 @@ if (have_posts()) {
             $published_posts = wp_count_posts("sponsors");
             if ($sponsors['title'] || $published_posts->publish > 0) {
         ?>
-                <div class="st-p">
+                <div class="st-p d-none">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12">
