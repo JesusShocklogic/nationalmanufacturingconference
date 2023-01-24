@@ -44,3 +44,8 @@ function register_my_menus() {
     );
 }
 add_action( 'init', 'register_my_menus' );
+
+
+wp_register_style("swiper-css", get_template_directory_uri() . "/assets/css/swiper-bundle.min.css", array(), true);
+wp_register_script("swiper-js", get_template_directory_uri() . "/assets/js/swiper.js", array(), true);
+wp_register_style("modal-partners", get_template_directory_uri() . "/assets/css/modal-partners.css", array(), true);
