@@ -17,7 +17,7 @@ if (have_posts()) {
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <img class="w-75 img-fluid d-block m-auto" src="<?= get_the_post_thumbnail_url() ?>" alt="">
+                        <img style="max-width: 400px;" class="w-50 img-fluid d-block m-auto" src="<?= get_the_post_thumbnail_url() ?>" alt="">
                     </div>
                     <div class="col-12">
                         <?php the_content(); ?>
