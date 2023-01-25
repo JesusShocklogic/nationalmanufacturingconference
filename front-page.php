@@ -49,6 +49,8 @@ if (have_posts()) {
             </div>
         <?php } ?>
 
+        <?php the_content() ?>
+
 
         <!-- Section 7 -->
         <?php if (get_field('section_7_enable')) { ?>
