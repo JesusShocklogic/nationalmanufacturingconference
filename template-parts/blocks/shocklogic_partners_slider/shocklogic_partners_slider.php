@@ -30,13 +30,13 @@ if (isset($shocklogic_partners_slider_group) && $shocklogic_partners_slider_grou
 									<?php
 									//click behaviour
 									if ($shocklogic_partners_slider_group['click_behaviour'] == "internal") { ?>
-										<a href="<?php the_permalink() ?>">
+										<a href="<?= is_admin() ? "#" : the_permalink() ?>">
 											<img src="<?= $image_url ?>" alt="">
 										</a>
 									<?php
 									} elseif ($shocklogic_partners_slider_group['click_behaviour'] == "external") {
 										$data = get_field('data', get_the_ID()); ?>
-										<a href="<?= $data['external_url'] ?? '#' ?>" target="_blank">
+										<a href="<?= is_admin() ? "#" : $data['external_url'] ?>" target="_blank">
 											<img src="<?= $image_url ?>" alt="">
 										</a>
 									<?php
